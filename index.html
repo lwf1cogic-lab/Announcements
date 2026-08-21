@@ -8,13 +8,16 @@
 <style>
   /* Digital Announcements section (self-contained styles; no style.css changes needed) */
   .digital-announce-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
     margin-top: 20px;
   }
   .digital-announce-card {
     margin: 0;
+    width: 100%;
+    max-width: 620px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -68,7 +71,7 @@
         <figcaption>Bring Your Children to Sunday School &mdash; Every 4th Sunday, 9:00 AM</figcaption>
       </figure>
       <figure class="digital-announce-card">
-        <img src="digital-announcements/image000002.jpeg" alt="Living Word Fellowship Church &mdash; Tennessee State Youth Rally flyer.">
+        <img src="digital-announcements/TN.jpg.jpeg" alt="Living Word Fellowship Church &mdash; Tennessee State Youth Rally flyer.">
         <figcaption>Tennessee State Youth Rally</figcaption>
       </figure>
     </div>
